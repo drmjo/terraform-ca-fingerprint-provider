@@ -1,4 +1,4 @@
-module github.com/drmjo/terraform-provider-ca-fingerprint
+module github.com/drmjo/terraform-provider-finger
 
 go 1.12
 

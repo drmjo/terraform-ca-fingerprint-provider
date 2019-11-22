@@ -1,7 +1,7 @@
 
 
 build:
-	GOARCH=amd64 GOOS=linux go build -v -o bin/terraform-provider-finger
+	GOARCH=amd64 GOOS=linux go build -v -o bin/terraform-provider-finger.v0.0.1.linux
 
 
 test:
