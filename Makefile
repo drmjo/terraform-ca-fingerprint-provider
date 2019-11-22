@@ -6,7 +6,6 @@ build:
 
 test:
 	docker run -it \
-		-v $(shell pwd)/bin:/root/.terraform.d/plugins \
 		-v $(shell pwd)/test-terraform:/tf \
 		-w /tf \
 		--entrypoint /bin/sh \
